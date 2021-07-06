@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useRef, useState } from 'react';
-import { useClickOutside } from '../hooks/useClickOutside';
 import { MdMenu, MdClose } from 'react-icons/md';
 
 export default function Nav({ pages, page, handlePageChange }) {
@@ -9,7 +8,6 @@ export default function Nav({ pages, page, handlePageChange }) {
   const hideSideMenu = () => setShowSideMenu(false);
 
   const navRef = useRef();
-  useClickOutside(navRef, hideSideMenu);
 
   return (
     <nav className='flex flex-col items-end'>
