@@ -1,5 +1,5 @@
 import Project from '../Project';
-import { projects } from '../../assets/data/portfolioData';
+import { projects } from '../../assets/data/portfolioSec';
 
 export default function Portfolio() {
   return (

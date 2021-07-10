@@ -2,10 +2,9 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import { pageComponents } from './pages';
+import { pages } from '../assets/data/portfolioSec';
 
 export default function PortfolioSite() {
-  const pages = ['About', 'Portfolio', 'Contact', 'Resume'];
-
   return (
     <div className='flex flex-col min-h-screen relative overflow-hidden'>
       <BrowserRouter>
@@ -13,15 +12,15 @@ export default function PortfolioSite() {
         <main className='flex-grow flex'>
           <Switch>
             {/*Default to About page*/}
-            <Route path='/' exact component={pageComponents['About']} />
+            <Route path='/react_portfolio/' exact component={pageComponents['About']} />
             {pages.map((pageName, index) => (
               <Route
                 key={index}
-                path={`/${pageName.toLowerCase()}`}
+                path={`/react_portfolio/${pageName.toLowerCase()}`}
                 component={pageComponents[pageName]}
               />
             ))}
-            <Route render={() => <Redirect to='/' />} />
+            <Route render={() => <Redirect to='/react_portfolio' />} />
           </Switch>
         </main>
       </BrowserRouter>

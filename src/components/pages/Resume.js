@@ -1,4 +1,4 @@
-import { skills } from '../../assets/data/portfolioData';
+import { skills } from '../../assets/data/portfolioSec';
 
 export default function Skills() {
   return (
