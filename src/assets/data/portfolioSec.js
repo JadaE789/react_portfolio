@@ -1,4 +1,4 @@
-import { projectImages } from '../img/projects';
+//import { projectImages } from '../img/projects';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 export const pages = ['About', 'Portfolio', 'Contact', 'Resume'];

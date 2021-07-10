@@ -12,15 +12,15 @@ export default function PortfolioSite() {
         <main className='flex-grow flex'>
           <Switch>
             {/*Default to About page*/}
-            <Route path='/react_portfolio/' exact component={pageComponents['About']} />
+            <Route path='/' exact component={pageComponents['About']} />
             {pages.map((pageName, index) => (
               <Route
                 key={index}
-                path={`/react_portfolio/${pageName.toLowerCase()}`}
+                path={`/${pageName.toLowerCase()}`}
                 component={pageComponents[pageName]}
               />
             ))}
-            <Route render={() => <Redirect to='/react_portfolio' />} />
+            <Route render={() => <Redirect to='/' />} />
           </Switch>
         </main>
       </BrowserRouter>
