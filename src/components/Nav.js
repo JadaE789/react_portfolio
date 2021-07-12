@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useRef, useState } from 'react';
 import { MdMenu, MdClose } from 'react-icons/md';
+import './css'
 
 export default function Nav({ pages, page, handlePageChange }) {
   const [showSideMenu, setShowSideMenu] = useState(false);

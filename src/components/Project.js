@@ -1,4 +1,5 @@
 import { FaCode } from 'react-icons/fa';
+import './css'
 
 export default function Project({ data }) {
   return (
