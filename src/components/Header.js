@@ -1,5 +1,4 @@
 import Nav from './Nav';
-import './css'
 
 export default function Header({ pages, page, handlePageChange }) {
   return (

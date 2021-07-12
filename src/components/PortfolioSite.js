@@ -3,7 +3,6 @@ import Header from './Header';
 import Footer from './Footer';
 import { pageComponents } from './pages';
 import { pages } from '../assets/data/portfolioSec';
-import './css'
 
 export default function PortfolioSite() {
   return (
