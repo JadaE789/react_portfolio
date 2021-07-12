@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useRef, useState } from 'react';
-import { MdMenu, MdClose } from 'react-icons/md';
 
 export default function Nav({ pages, page, handlePageChange }) {
   const [showSideMenu, setShowSideMenu] = useState(false);
@@ -18,16 +17,6 @@ export default function Nav({ pages, page, handlePageChange }) {
             <NavLink key={index} pageName={pageName} />
           ))}
         </div>
-
-        {/* Side Menu button on -medium screen */}
-        <div className='md:hidden'>
-          <button
-            className='text-gray-200 hover:text-gray-100 hover:bg-gray-600 p-2 rounded trans-ease-in'
-            onClick={toggleSideMenu}
-          >
-            <MdMenu size='30px' />
-          </button>
-        </div>
       </div>
 
       {/* Side menu on -medium screen */}
@@ -37,12 +26,6 @@ export default function Nav({ pages, page, handlePageChange }) {
           showSideMenu ? '' : 'translate-x-full'
         } transition duration-200 ease-in-out`}
       >
-        <button
-          className='text-gray-200 hover:text-gray-100 hover:bg-gray-500 p-2 rounded'
-          onClick={toggleSideMenu}
-        >
-          <MdClose size='30px' />
-        </button>
         <div className='flex flex-col w-full space-y-2'>
           {pages.map((pageName, index) => (
             <NavLinkSide
