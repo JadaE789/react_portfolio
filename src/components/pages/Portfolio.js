@@ -1,5 +1,6 @@
 import Project from '../Project';
 import { projects } from '../../assets/data/portfolioSec';
+import './Portfolio.css';
 
 export default function Portfolio() {
   return (
