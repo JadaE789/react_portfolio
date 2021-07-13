@@ -29,3 +29,8 @@ code {
 .space-x-2 {
   text-align: center;
 }
+
+.bg-gray-700 {
+  text-align: center;
+  padding-top: 30px;
+}
