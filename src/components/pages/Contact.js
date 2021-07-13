@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../../utils/validators';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
   const [name, setName] = useState('');
