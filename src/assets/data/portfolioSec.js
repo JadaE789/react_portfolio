@@ -85,10 +85,7 @@ export const skills = {
 };
 
 export const iconLinks = [
-  {
-    Icon: FaLinkedin,
-    link: 'www.linkedin.com/in/jada-desormeaux',
-  },
+  { Icon: FaLinkedin,link: 'https://www.linkedin.com/in/jada-desormeaux/'},
   { Icon: FaGithub, link: 'https://github.com/JadaE789' },
   { Icon: FaEnvelope, link: 'mailto:JadaE789@gmail.com' },
 ];

@@ -1,13 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useRef, useState } from 'react';
 
 export default function Nav({ pages, page, handlePageChange }) {
-  const [showSideMenu, setShowSideMenu] = useState(false);
-  const toggleSideMenu = () => setShowSideMenu(!showSideMenu);
-  const hideSideMenu = () => setShowSideMenu(false);
-
-  const navRef = useRef();
-
   return (
     <nav className='flex flex-col items-end'>
       <div>
