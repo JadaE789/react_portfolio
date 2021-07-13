@@ -1,4 +1,16 @@
 .aboutHeader {
     text-align: center;
     padding-top: 30px;
+    font-size: 25px;
+}
+
+.p-6 {
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+}
+
+.aboutMe {
+    padding-bottom: 30px;
+    text-align: center;
 }
