@@ -1,8 +1,8 @@
 import Project from '../Project';
 import { projects } from '../../assets/data/portfolioSec';
-import './Portfolio.css';
+import './Project.css';
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <section className='w-full p-8 bg-gray-100'>
       <h2 className='py-4 text-center text-gray-600 text-2xl font-bold uppercase '>

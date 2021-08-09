@@ -1,11 +1,11 @@
 import About from './About';
-import Portfolio from './Portfolio';
+import Projects from './Project';
 import Contact from './Contact';
 import Resume from './Resume';
 
 export const pageComponents = {
   About,
-  Portfolio,
+  Projects,
   Contact,
   Resume,
 };

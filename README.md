@@ -8,6 +8,7 @@
   * [User Story](#user-story)
   * [Installation](#installation)
   * [License](#license)
+  * [Screenshots](#screenshots)
   * [Demo Link](#Project-Demo-Link)
   * [Questions?](#questions)
   
@@ -27,6 +28,11 @@
   ## License
   
   This project is under MIT for licensing.
+
+  ## Screenshots
+
+  ![Screenshot1](https://user-images.githubusercontent.com/77691626/128652307-ff45d35d-7f13-462d-8326-14379a0cf179.PNG)
+  ![Screenshot2](https://user-images.githubusercontent.com/77691626/128652308-7b6d832a-5db1-46a8-bf00-0ab5ec72b8c6.PNG)
   
   ## Project Demo Link
   
